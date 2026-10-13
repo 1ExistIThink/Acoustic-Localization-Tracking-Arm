@@ -2,9 +2,6 @@ import spidev
 import lgpio
 import time 
 
-# Compared to ADCV1, this should try to make it sample 200ksps. 
-
-
 ADC_CVA_CVB = 17 # Sampling Pulse 
 ADC_RESET = 21 # GPIO Output for resetting ADC
 ADC_BUSY = 20 # Tell Pi when ADC is busy
